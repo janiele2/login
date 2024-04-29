@@ -1,0 +1,43 @@
+body{
+    background-image: url(Imagens/depositphotos_514430240-stock-photo-yellow-forest-with-blue-and.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    background-color: aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+input[type="text"],
+input[type= "password"],
+input[type="submit"]
+{
+    width: 100%;
+    padding: 2%;
+}
+
+.botao{
+  background-color: rgb(231, 230, 159);
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    form{
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    form{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 35%;
+    }
+}
